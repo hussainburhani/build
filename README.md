@@ -1,6 +1,7 @@
 # 🏠 House Price Prediction
 
 ## 📜 Philosophy: build Simple, but complete
+
 During my data science training, I’ve come to value a guiding principle:  
 **Start with something simple, but make it complete.**
 
@@ -19,6 +20,7 @@ Instead of over‑engineering from day one, they focused on defining the inputs 
 ---
 
 ## ⚖️ The Trade‑Offs
+
 Of course, there are valid counterpoints:
 
 - Shouldn’t you explore the dataset first?  
@@ -30,14 +32,8 @@ But in practice, **“simple but complete”** often accelerates delivery, keeps
 
 ---
 
-## 🏗️ This Project: House Price Prediction
-In the spirit of this philosophy, I’m building a portfolio of data and AI solutions for the **architecture, built‑space, and real estate sector**.
-
-For my first project, I’m training a model to predict house prices using the **Ames Housing dataset** — a classic beginner dataset that’s perfect for this exercise.
-
----
-
 ## 🔍 Approach
+
 In my first iteration, I’m using a **structured, reproducible workflow** in Jupyter Notebook:
 
 1. **Define** the data science problem  
@@ -56,5 +52,74 @@ Even in this “simple but complete” version, I’m:
 ---
 
 ## 🚀 Next Steps
+
 As with the IBM story, this first version is just the beginning.  
 The model will evolve, but the **foundation is already in place**.
+
+---
+
+# Housing Price Prediction
+
+This project uses machine learning to predict the price of a home based on its features. It is built using Python and scikit-learn, and is intended to be a simple but complete example of solving a real-world problem with data science.
+
+The goal is to understand the full pipeline: from defining the problem, gathering and exploring the data, building a model, evaluating it, and making predictions.
+
+---
+
+## Project Structure
+
+This repository currently includes:
+
+- `model.ipynb`: Main notebook that builds the modeling pipeline. Includes data loading, preprocessing, training, evaluation, and prediction.
+- `explore.ipynb`: A supporting notebook focused on data quality checks and exploration. Helps identify issues and opportunities before modeling.
+
+More notebooks and modules may be added as the project evolves.
+
+---
+
+## Modeling Pipeline Overview
+
+The modeling notebook is broken into the following sections, which is a variation of a structure that was introduced to me during a data science intensive I took at General Assembly in Washington DC:
+
+1. Define data science problem
+2. Gather data
+3. Explore data
+4. Process and transform data
+5. Model and evaluate data
+6. Save model artifacts
+7. Prediction using trained model
+8. Answer data science problem
+
+Each section is designed to be clear and beginner-friendly, with comments explaining what each step does.
+
+---
+
+## 🛠️ Improvements
+
+This section tracks all meaningful updates to the project — new notebooks, pipeline changes, modeling enhancements, and documentation improvements. Each entry includes a short description and the date it was added.
+
+---
+
+### 📊 2025-09-30 — Added `explore.ipynb` for data quality checks
+
+I’ve added a new notebook called `explore.ipynb` to this repo. It contains targeted data exploration steps to assess the quality and structure of the housing dataset. This includes checks for missing values, outliers, feature distributions, correlations with the target variable (`SalePrice`), and other diagnostics that help improve the modeling pipeline.
+
+This notebook is meant to guide early-stage analysis and ensure that the data is clean, relevant, and ready for machine learning. It complements the main modeling notebook and will evolve as I continue refining the workflow.
+
+---
+
+## Getting Started
+
+To run the notebooks:
+
+1. Clone this repository.
+2. Install dependencies (e.g. `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `joblib`).
+3. Open the notebooks in JupyterLab or VS Code.
+4. Run cells step by step and follow the comments.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
