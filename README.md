@@ -108,6 +108,21 @@ This notebook is meant to guide early-stage analysis and ensure that the data is
 
 ---
 
+### 🧱 2025-09-30 — Revised `pricing-homes.ipynb` with full pipeline improvements
+
+The main modeling notebook (`pricing-homes.ipynb`) has been updated to reflect insights from the data exploration phase. Key changes include:
+
+- Dropping duplicate rows to avoid training on repeated data
+- Removing columns with excessive missing values (>30%)
+- Excluding zero-variance columns that add no predictive value
+- Identifying and dropping high-cardinality, low-correlation columns (likely IDs or keys)
+- Applying a log transformation to the target variable (`SalePrice`) to reduce skewness
+- Preserving a clean feature set for modeling by filtering based on correlation and structure
+
+These changes improve model robustness, reduce noise, and align the pipeline with best practices for regression tasks. The notebook remains beginner-friendly and reproducible, with clear comments and modular steps.
+
+---
+
 ## Getting Started
 
 To run the notebooks:
