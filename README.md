@@ -1,6 +1,6 @@
 # 🏠 House Price Prediction
 
-## 📜 Philosophy: build Simple, but complete
+## 📜 Philosophy: build simple, but complete
 
 During my data science training, I’ve come to value a guiding principle:  
 **Start with something simple, but make it complete.**
